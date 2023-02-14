@@ -94,9 +94,7 @@ form {
     font-weight: bold;
 }
 
-form i{
-   
-}
+
 #i-input {
 
     background-color: #F2F2F2;
@@ -498,9 +496,11 @@ footer p {
 
     .section-2 {
         max-width: 767px;
+        padding: 0 10px;
         display: flex;
         flex-direction: column-reverse;
     }
+
 
     .filters {
         flex-wrap: wrap;
@@ -509,6 +509,10 @@ footer p {
     .cards {
         display: flex;
         flex-direction: column;
+    }
+
+    .section-3 {
+        padding: 0 10px;
     }
 
     .section-3-cards {
@@ -533,6 +537,7 @@ footer p {
         margin: auto;
         display: flex;
         flex-direction: column;
+        border-radius: 0;
     }
 
     footer article {
