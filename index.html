@@ -15,8 +15,8 @@
         <a href="/"><img src="img/Booki.png" alt="logo Booki"></a>
         <nav>
             <ul>
-                <li><a href="#">Hébergements</a></li>
-                <li><a href="#">Activités</a></li>
+                <li><a href="#hebergement">Hébergements</a></li>
+                <li><a href="#activities">Activités</a></li>
             </ul>
         </nav>
     </header>
@@ -34,6 +34,7 @@
             <i id="i-input"   class="fas fa-map-marker-alt"></i>
             <input type="text" placeholder="Marseille, France">
             <button>Rechercher</button>
+            <i id="search-btn" class="fas fa-search"></i>
         </form>
 
         <div class="filters">
@@ -50,7 +51,7 @@
         <!-- Section 2  -->
 
     <section class="section-2">
-        <div class="left-section">
+        <div id="hebergement" class="left-section">
             <h2>Hébergement à Marseille</h2>
             <div class="cards">
                 <a href="#">
@@ -109,7 +110,7 @@
                     </article>
                 </a>
             
-                <a href="#">Afficher plus</a>
+                <a id="bntAfficherPlus" href="#">Afficher plus</a>
             </div>
         </div>
 
@@ -118,33 +119,56 @@
         <aside>
             <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
                 <div class="side-cards">
-                    <article>
-                        <div class="side-img">
-                        <img src="./img/hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Description"></div>
-                        <div class="card">
-                            <h3>Auberge La Canebière</h3>
-                            <p>Nuit à partir de 25€</p>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                    </article>
-                    <article>
-                        <div class="side-img">
-                        <img src="./img/hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Description"></div>
-                        <div class="card">
-                            <h3>Auberge La Canebière</h3>
-                            <p>Nuit à partir de 25€</p>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                    </article>
-                    <article>
-                        <div class="side-img">
-                        <img src="./img/hebergement/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Description"></div>
-                        <div class="card">
-                            <h3>Auberge La Canebière</h3>
-                            <p>Nuit à partir de 25€</p>
-                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
-                        </div>
-                    </article>
+                    <a href="#">
+                        <article>
+                            <div class="side-img">
+                            <img src="./img/hebergement/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Description">
+                            </div>
+                            <div class="card">
+                                <div>
+                                    <h3>Hôtel Le soleil du Matin</h3>
+                                    <p>Nuit à partir de 128€</p>
+                                </div>
+                                <div>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>  
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article>
+                            <div class="side-img">
+                            <img src="./img/hebergement/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Description">
+                            </div>
+                            <div class="card">
+                                <div>
+                                    <h3>Chambre d'hôtes Au coeur d'eau</h3>
+                                    <p>Nuit à partir de 71€</p>
+                                </div>
+                                <div>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>  
+                        </article>
+                    </a>
+                    <a href="#">
+                        <article>
+                            <div class="side-img">
+                            <img src="./img/hebergement/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Description">
+                            </div>
+                            <div class="card">
+                                <div>
+                                    <h3>Hôtel Bleu et Blanc</h3>
+                                    <p>Nuit à partir de 63€</p>
+                                </div>
+                                <div>
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                            </div>  
+                        </article>
+                    </a>
+                  
+                    
                 </div>
         </aside>
     </section>
@@ -152,38 +176,42 @@
     <!-- Section 3  -->
 
     <section class="section-3">
-        <h2>Activités à Marseille</h2>
+        <h2 id="activities">Activités à Marseille</h2>
         <div class="section-3-cards">
             <article>
+                <a href="#">
                 <div class="section-3-card-img">
                     <img src="img/activities/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Description">
                 </div>
-                <a href="#"><h3>Vieux-Port</h3></a>
+                <h3>Vieux-Port</h3></a>
             </article>
             <article>
+                <a href="#">
                 <div class="section-3-card-img">
                     <img src="img/activities/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Description">
                 </div>
-                <a href="#"><h3>Fort de Pomègues</h3></a>
+                <h3>Fort de Pomègues</h3></a>
             </article>
             <article>
+                <a href="#">
                 <div class="section-3-card-img">
                     <img src="img/activities/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Description">
                 </div>
-                <a href="#"><h3>Parc National des Calanques</h3></a>
+                <h3>Parc National des Calanques</h3></a>
             </article>
             <article>
+                <a href="#">
                 <div class="section-3-card-img">
                     <img src="img/activities/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Description">
                 </div>
-                <a href="#"><h3>Notre-Dame-de-le-Garde</h3></a>
+                <h3>Notre-Dame-de-le-Garde</h3></a>
             </article>
         </div>
     </section>
 
 </main>
 
-<!-- Section 3  -->
+<!-- Footer  -->
 
 <footer>
     <article>
